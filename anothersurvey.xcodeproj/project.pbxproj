@@ -15,6 +15,16 @@
 		ABC40597237A38D8001604D5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC40596237A38D8001604D5 /* ExtensionDelegate.swift */; };
 		ABC40599237A38D8001604D5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC40598237A38D8001604D5 /* NotificationController.swift */; };
 		ABC4059B237A38D9001604D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC4059A237A38D9001604D5 /* Assets.xcassets */; };
+		ABC405AC237A395F001604D5 /* SurveyInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405AB237A395F001604D5 /* SurveyInterfaceController.swift */; };
+		ABC405B4237A5D11001604D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405B3237A5D11001604D5 /* AppDelegate.swift */; };
+		ABC405B6237A5D11001604D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405B5237A5D11001604D5 /* SceneDelegate.swift */; };
+		ABC405B8237A5D11001604D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405B7237A5D11001604D5 /* ViewController.swift */; };
+		ABC405BB237A5D11001604D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC405B9237A5D11001604D5 /* Main.storyboard */; };
+		ABC405BE237A5D11001604D5 /* notificationforsurvey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC405BC237A5D11001604D5 /* notificationforsurvey.xcdatamodeld */; };
+		ABC405C0237A5D13001604D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC405BF237A5D13001604D5 /* Assets.xcassets */; };
+		ABC405C3237A5D13001604D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC405C1237A5D13001604D5 /* LaunchScreen.storyboard */; };
+		ABC405CE237A5D13001604D5 /* notificationforsurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405CD237A5D13001604D5 /* notificationforsurveyTests.swift */; };
+		ABC405D9237A5D14001604D5 /* notificationforsurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC405D8237A5D14001604D5 /* notificationforsurveyUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +41,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = ABC4058E237A38D8001604D5;
 			remoteInfo = "anothersurvey WatchKit Extension";
+		};
+		ABC405CA237A5D13001604D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC40576237A38D6001604D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC405B0237A5D11001604D5;
+			remoteInfo = notificationforsurvey;
+		};
+		ABC405D5237A5D14001604D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC40576237A38D6001604D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC405B0237A5D11001604D5;
+			remoteInfo = notificationforsurvey;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -72,10 +96,47 @@
 		ABC4059A237A38D9001604D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC4059C237A38D9001604D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC4059D237A38D9001604D5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABC405AB237A395F001604D5 /* SurveyInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyInterfaceController.swift; sourceTree = "<group>"; };
+		ABC405B1237A5D11001604D5 /* notificationforsurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notificationforsurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC405B3237A5D11001604D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABC405B5237A5D11001604D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABC405B7237A5D11001604D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABC405BA237A5D11001604D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC405BD237A5D11001604D5 /* notificationforsurvey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notificationforsurvey.xcdatamodel; sourceTree = "<group>"; };
+		ABC405BF237A5D13001604D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC405C2237A5D13001604D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABC405C4237A5D13001604D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC405C9237A5D13001604D5 /* notificationforsurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notificationforsurveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC405CD237A5D13001604D5 /* notificationforsurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationforsurveyTests.swift; sourceTree = "<group>"; };
+		ABC405CF237A5D13001604D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC405D4237A5D14001604D5 /* notificationforsurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notificationforsurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC405D8237A5D14001604D5 /* notificationforsurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationforsurveyUITests.swift; sourceTree = "<group>"; };
+		ABC405DA237A5D14001604D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ABC4058C237A38D8001604D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405AE237A5D11001604D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405C6237A5D13001604D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405D1237A5D14001604D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,6 +151,9 @@
 			children = (
 				ABC40584237A38D6001604D5 /* anothersurvey WatchKit App */,
 				ABC40593237A38D8001604D5 /* anothersurvey WatchKit Extension */,
+				ABC405B2237A5D11001604D5 /* notificationforsurvey */,
+				ABC405CC237A5D13001604D5 /* notificationforsurveyTests */,
+				ABC405D7237A5D14001604D5 /* notificationforsurveyUITests */,
 				ABC4057D237A38D6001604D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +164,9 @@
 				ABC4057C237A38D6001604D5 /* anothersurvey.app */,
 				ABC40580237A38D6001604D5 /* anothersurvey WatchKit App.app */,
 				ABC4058F237A38D8001604D5 /* anothersurvey WatchKit Extension.appex */,
+				ABC405B1237A5D11001604D5 /* notificationforsurvey.app */,
+				ABC405C9237A5D13001604D5 /* notificationforsurveyTests.xctest */,
+				ABC405D4237A5D14001604D5 /* notificationforsurveyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC40594237A38D8001604D5 /* InterfaceController.swift */,
+				ABC405AB237A395F001604D5 /* SurveyInterfaceController.swift */,
 				ABC40596237A38D8001604D5 /* ExtensionDelegate.swift */,
 				ABC40598237A38D8001604D5 /* NotificationController.swift */,
 				ABC4059A237A38D9001604D5 /* Assets.xcassets */,
@@ -125,6 +193,39 @@
 				ABC4059D237A38D9001604D5 /* PushNotificationPayload.apns */,
 			);
 			path = "anothersurvey WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ABC405B2237A5D11001604D5 /* notificationforsurvey */ = {
+			isa = PBXGroup;
+			children = (
+				ABC405B3237A5D11001604D5 /* AppDelegate.swift */,
+				ABC405B5237A5D11001604D5 /* SceneDelegate.swift */,
+				ABC405B7237A5D11001604D5 /* ViewController.swift */,
+				ABC405B9237A5D11001604D5 /* Main.storyboard */,
+				ABC405BF237A5D13001604D5 /* Assets.xcassets */,
+				ABC405C1237A5D13001604D5 /* LaunchScreen.storyboard */,
+				ABC405C4237A5D13001604D5 /* Info.plist */,
+				ABC405BC237A5D11001604D5 /* notificationforsurvey.xcdatamodeld */,
+			);
+			path = notificationforsurvey;
+			sourceTree = "<group>";
+		};
+		ABC405CC237A5D13001604D5 /* notificationforsurveyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC405CD237A5D13001604D5 /* notificationforsurveyTests.swift */,
+				ABC405CF237A5D13001604D5 /* Info.plist */,
+			);
+			path = notificationforsurveyTests;
+			sourceTree = "<group>";
+		};
+		ABC405D7237A5D14001604D5 /* notificationforsurveyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC405D8237A5D14001604D5 /* notificationforsurveyUITests.swift */,
+				ABC405DA237A5D14001604D5 /* Info.plist */,
+			);
+			path = notificationforsurveyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +282,59 @@
 			productReference = ABC4058F237A38D8001604D5 /* anothersurvey WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		ABC405B0237A5D11001604D5 /* notificationforsurvey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC405DB237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurvey" */;
+			buildPhases = (
+				ABC405AD237A5D11001604D5 /* Sources */,
+				ABC405AE237A5D11001604D5 /* Frameworks */,
+				ABC405AF237A5D11001604D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notificationforsurvey;
+			productName = notificationforsurvey;
+			productReference = ABC405B1237A5D11001604D5 /* notificationforsurvey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC405C8237A5D13001604D5 /* notificationforsurveyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC405DE237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurveyTests" */;
+			buildPhases = (
+				ABC405C5237A5D13001604D5 /* Sources */,
+				ABC405C6237A5D13001604D5 /* Frameworks */,
+				ABC405C7237A5D13001604D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC405CB237A5D13001604D5 /* PBXTargetDependency */,
+			);
+			name = notificationforsurveyTests;
+			productName = notificationforsurveyTests;
+			productReference = ABC405C9237A5D13001604D5 /* notificationforsurveyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC405D3237A5D14001604D5 /* notificationforsurveyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC405E1237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurveyUITests" */;
+			buildPhases = (
+				ABC405D0237A5D14001604D5 /* Sources */,
+				ABC405D1237A5D14001604D5 /* Frameworks */,
+				ABC405D2237A5D14001604D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC405D6237A5D14001604D5 /* PBXTargetDependency */,
+			);
+			name = notificationforsurveyUITests;
+			productName = notificationforsurveyUITests;
+			productReference = ABC405D4237A5D14001604D5 /* notificationforsurveyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +354,17 @@
 					ABC4058E237A38D8001604D5 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					ABC405B0237A5D11001604D5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					ABC405C8237A5D13001604D5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ABC405B0237A5D11001604D5;
+					};
+					ABC405D3237A5D14001604D5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = ABC405B0237A5D11001604D5;
+					};
 				};
 			};
 			buildConfigurationList = ABC40579237A38D6001604D5 /* Build configuration list for PBXProject "anothersurvey" */;
@@ -218,6 +383,9 @@
 				ABC4057B237A38D6001604D5 /* anothersurvey */,
 				ABC4057F237A38D6001604D5 /* anothersurvey WatchKit App */,
 				ABC4058E237A38D8001604D5 /* anothersurvey WatchKit Extension */,
+				ABC405B0237A5D11001604D5 /* notificationforsurvey */,
+				ABC405C8237A5D13001604D5 /* notificationforsurveyTests */,
+				ABC405D3237A5D14001604D5 /* notificationforsurveyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +415,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABC405AF237A5D11001604D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC405C3237A5D13001604D5 /* LaunchScreen.storyboard in Resources */,
+				ABC405C0237A5D13001604D5 /* Assets.xcassets in Resources */,
+				ABC405BB237A5D11001604D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405C7237A5D13001604D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405D2237A5D14001604D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -255,8 +447,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC40599237A38D8001604D5 /* NotificationController.swift in Sources */,
+				ABC405AC237A395F001604D5 /* SurveyInterfaceController.swift in Sources */,
 				ABC40597237A38D8001604D5 /* ExtensionDelegate.swift in Sources */,
 				ABC40595237A38D8001604D5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405AD237A5D11001604D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC405B8237A5D11001604D5 /* ViewController.swift in Sources */,
+				ABC405B4237A5D11001604D5 /* AppDelegate.swift in Sources */,
+				ABC405BE237A5D11001604D5 /* notificationforsurvey.xcdatamodeld in Sources */,
+				ABC405B6237A5D11001604D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405C5237A5D13001604D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC405CE237A5D13001604D5 /* notificationforsurveyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC405D0237A5D14001604D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC405D9237A5D14001604D5 /* notificationforsurveyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +493,16 @@
 			target = ABC4058E237A38D8001604D5 /* anothersurvey WatchKit Extension */;
 			targetProxy = ABC40591237A38D8001604D5 /* PBXContainerItemProxy */;
 		};
+		ABC405CB237A5D13001604D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC405B0237A5D11001604D5 /* notificationforsurvey */;
+			targetProxy = ABC405CA237A5D13001604D5 /* PBXContainerItemProxy */;
+		};
+		ABC405D6237A5D14001604D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC405B0237A5D11001604D5 /* notificationforsurvey */;
+			targetProxy = ABC405D5237A5D14001604D5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -282,6 +512,22 @@
 				ABC40586237A38D6001604D5 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC405B9237A5D11001604D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC405BA237A5D11001604D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC405C1237A5D13001604D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC405C2237A5D13001604D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,6 +753,130 @@
 			};
 			name = Release;
 		};
+		ABC405DC237A5D14001604D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurvey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC405DD237A5D14001604D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurvey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurvey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABC405DF237A5D14001604D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurveyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurveyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notificationforsurvey.app/notificationforsurvey";
+			};
+			name = Debug;
+		};
+		ABC405E0237A5D14001604D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurveyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurveyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notificationforsurvey.app/notificationforsurvey";
+			};
+			name = Release;
+		};
+		ABC405E2237A5D14001604D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurveyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurveyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = notificationforsurvey;
+			};
+			name = Debug;
+		};
+		ABC405E3237A5D14001604D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7434BPWFN7;
+				INFOPLIST_FILE = notificationforsurveyUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aj.notificationforsurveyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = notificationforsurvey;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -546,7 +916,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		ABC405DB237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurvey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC405DC237A5D14001604D5 /* Debug */,
+				ABC405DD237A5D14001604D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC405DE237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurveyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC405DF237A5D14001604D5 /* Debug */,
+				ABC405E0237A5D14001604D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC405E1237A5D14001604D5 /* Build configuration list for PBXNativeTarget "notificationforsurveyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC405E2237A5D14001604D5 /* Debug */,
+				ABC405E3237A5D14001604D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC405BC237A5D11001604D5 /* notificationforsurvey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC405BD237A5D11001604D5 /* notificationforsurvey.xcdatamodel */,
+			);
+			currentVersion = ABC405BD237A5D11001604D5 /* notificationforsurvey.xcdatamodel */;
+			path = notificationforsurvey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABC40576237A38D6001604D5 /* Project object */;
 }
